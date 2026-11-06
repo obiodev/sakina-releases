@@ -13,5 +13,4 @@ Latest version / Dernière version: https://raw.githubusercontent.com/obiodev/sa
 ## Credits
 
 - **Quran text:** "quran-uthmani" edition from Al Quran Cloud (https://alquran.cloud, Islamic Network), whose sources include Tanzil Project (https://tanzil.net). Reproduced without modification. Copyright (C) Tanzil Project.
-- **Adhan:** "Call to prayer from the Prophet's mosque" by ejaz215 (https://www.freesound.org/people/ejaz215/sounds/33937/), via Wikimedia Commons, licensed under CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/), unmodified.
 - **Audio recitation:** not included in these files. Mishary Rashid Alafasy, downloaded on request from the open CDN of Islamic Network (https://cdn.islamic.network). Rights in the recitation remain with the reciter.
