@@ -6,6 +6,10 @@ The application source code is not in this repository.
 Versions Android de Sakinah signées, et fichier `update.json` que l'application lit pour trouver une nouvelle version.
 Le code source de l'application n'est pas dans ce dépôt.
 
+## Download / Télécharger
+
+Latest version / Dernière version: https://raw.githubusercontent.com/obiodev/sakina-releases/main/sakinah.apk
+
 ## Credits
 
 - **Quran text:** Tanzil Project (https://tanzil.net), Uthmani text, reproduced without modification. Copyright (C) Tanzil Project.
