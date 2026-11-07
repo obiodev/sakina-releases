@@ -8,9 +8,12 @@ Le code source de l'application n'est pas dans ce dépôt.
 
 ## Download / Télécharger
 
+Website / Site : https://obiodev.github.io/sakina-releases/
+
 Latest version / Dernière version: https://raw.githubusercontent.com/obiodev/sakina-releases/main/sakinah.apk
 
 ## Credits
 
 - **Quran text:** "quran-uthmani" edition from Al Quran Cloud (https://alquran.cloud, Islamic Network), whose sources include Tanzil Project (https://tanzil.net). Reproduced without modification. Copyright (C) Tanzil Project.
 - **Audio recitation:** not included in these files. Mishary Rashid Alafasy, downloaded on request from the open CDN of Islamic Network (https://cdn.islamic.network). Rights in the recitation remain with the reciter.
+- **Adhans:** six unmodified recordings from AlAdhan.com (Islamic Network), by Ahmad al-Nafees, Hafiz Mustafa Özcan, Mishary Alafasy and Mansour Al-Zahrani. Rights remain with the mu'adhins. They are never behind a payment, and any recording will be removed on request from its rights holder.

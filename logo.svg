@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" width="512" height="512">
+  <title>Sakinah</title>
+  <rect width="108" height="108" fill="#1E5E4B"/>
+  <path d="M34,78 L34,50 C34,39 44,32 54,26 C64,32 74,39 74,50 L74,78 Z" fill="none" stroke="#E5C170" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M52.58,44 A13,13 0 1 0 65.58,60.26 A10.5,10.5 0 1 1 52.58,44 Z" fill="#FBF6E6"/>
+  <path d="M62,44 L63,47 L66,48 L63,49 L62,52 L61,49 L58,48 L61,47 Z" fill="#E5C170"/>
+</svg>

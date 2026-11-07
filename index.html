@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sakinah : application de pratique musulmane</title>
+<meta name="description" content="Heures de prière, rappels avec adhan, Qibla, Coran, tasbih et douas. Gratuite, sans publicité et sans pistage.">
+<meta name="referrer" content="no-referrer">
+<meta name="title-fr" content="Sakinah : application de pratique musulmane"><meta name="title-en" content="Sakinah: a Muslim practice app"><meta name="title-ar" content="سكينة: تطبيق للعبادة اليومية">
+<link rel="icon" href="logo.svg" type="image/svg+xml">
+<style>
+:root{--bg:#f7f5ef;--surface:#ffffff;--text:#1d2520;--muted:#56625a;--accent:#1f6b4f;--accent-text:#ffffff;--border:#dcd8cc;--code:#efece3}
+@media (prefers-color-scheme:dark){:root{--bg:#121714;--surface:#1b221e;--text:#e7ece8;--muted:#a3b0a7;--accent:#5fc49a;--accent-text:#0d1a14;--border:#2e3832;--code:#232b26}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans","Noto Naskh Arabic",sans-serif}
+main{max-width:720px;margin:0 auto;padding:24px 16px 48px}
+nav.langs{display:flex;gap:8px;justify-content:flex-end;margin-bottom:16px;flex-wrap:wrap}
+nav.langs button{font:inherit;font-size:14px;background:none;border:1px solid var(--border);color:var(--text);border-radius:999px;padding:4px 12px;cursor:pointer}
+nav.langs button[aria-pressed=true]{background:var(--accent);color:var(--accent-text);border-color:var(--accent)}
+header{text-align:center;margin-bottom:24px}
+header img{width:96px;height:96px;border-radius:22px}
+h1{font-size:28px;line-height:1.25;margin:12px 0 8px}
+h2{font-size:20px;margin:0 0 8px}
+p{margin:0 0 12px}
+.muted{color:var(--muted);font-size:14px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:20px;margin:16px 0}
+.download{text-align:center}
+a.button{display:inline-block;background:var(--accent);color:var(--accent-text);text-decoration:none;font-weight:600;font-size:18px;padding:14px 28px;border-radius:999px;margin:8px 0}
+a{color:var(--accent)}
+.qr{width:160px;height:160px;background:#fff;padding:8px;border-radius:12px;margin:8px auto 0;display:block}
+ul,ol{margin:0;padding-inline-start:22px}
+li{margin:4px 0}
+code{background:var(--code);border-radius:6px;padding:2px 6px;font-size:13px;word-break:break-all}
+footer{margin-top:24px}
+[data-lang]{display:none}
+html[lang=fr] [data-lang=fr],html[lang=en] [data-lang=en],html[lang=ar] [data-lang=ar]{display:block}
+.policy h2{margin-top:20px}
+</style>
+<noscript><style>[data-lang]{display:block}nav.langs{display:none}</style></noscript>
+</head>
+<body>
+<main>
+<nav class="langs" aria-label="Language"><button type="button" data-set="fr" lang="fr">Français</button><button type="button" data-set="en" lang="en">English</button><button type="button" data-set="ar" lang="ar">العربية</button></nav>
+<div data-lang="fr" lang="fr">
+<header><img src="logo.svg" alt=""><h1>Sakinah · سكينة</h1><p>Heures de prière, Qibla, Coran, tasbih et douas. Gratuite, sans publicité et sans pistage.</p></header>
+<section class="card download">
+<a class="button" href="https://github.com/obiodev/sakina-releases/raw/main/sakinah.apk">Télécharger pour Android</a>
+<p class="muted" hidden>Version <span class="version-value"></span></p>
+<p class="muted">Android 8 ou plus récent.</p>
+<p class="muted">Ou scannez ce code avec votre téléphone</p><img class="qr" src="qr.svg" alt="">
+</section>
+<section class="card"><h2>Ce que fait Sakinah</h2><ul><li>Heures de prière pour votre position ou une ville choisie, même hors connexion</li><li>Rappels de prière, avec le son normal ou l&#x27;adhan de votre choix</li><li>Direction de la Qibla</li><li>Le Coran, avec récitation verset par verset et suivi du texte</li><li>Tasbih et douas expliquées</li><li>En français, en anglais et en arabe</li></ul></section>
+<section class="card"><h2>Installer l&#x27;application</h2><ol><li>Touchez « Télécharger pour Android », puis ouvrez le fichier téléchargé.</li><li>Si Android le demande, autorisez votre navigateur à installer des applications.</li><li>Android peut prévenir que l&#x27;application ne vient pas du Play Store. C&#x27;est normal pour une application installée depuis un site. Ne continuez que si vous l&#x27;avez téléchargée depuis cette page.</li><li>Touchez « Installer ». Les mises à jour arriveront ensuite directement dans l&#x27;application.</li></ol></section>
+<section class="card"><h2>Votre vie privée</h2><p>Sakinah ne collecte ni vos données personnelles ni votre position. Aucun compte, aucune publicité, aucun pisteur.</p><p><a href="privacy.html">Lire la politique de confidentialité</a></p></section>
+<section class="card"><h2>Soutenir Sakinah</h2><p>Sakinah est gratuite et le restera. Si elle vous est utile, vous pouvez soutenir son développement.</p><p><a href="https://ko-fi.com/sakinah_dev" rel="noopener">Soutenir sur Ko-fi</a></p></section>
+<section class="card"><h2>Vérifier l&#x27;application</h2><p>Empreinte SHA-256 du certificat de signature :</p><p><code>8c43b14cdf99b9a25c0002da8a1bf5c3827ef04270f0df84623791a5dd540495</code></p></section>
+<footer><p class="muted">Texte du Coran : édition « quran-uthmani » d&#x27;Al Quran Cloud (Islamic Network), dont les sources comprennent le projet Tanzil. Récitation : Mishary Alafasy, via Islamic Network. Adhans : AlAdhan.com (Islamic Network). Les droits des récitations et des adhans restent à leurs auteurs.</p></footer>
+</div>
+<div data-lang="en" lang="en">
+<header><img src="logo.svg" alt=""><h1>Sakinah · سكينة</h1><p>Prayer times, Qibla, Quran, tasbih and duas. Free, ad-free and tracker-free.</p></header>
+<section class="card download">
+<a class="button" href="https://github.com/obiodev/sakina-releases/raw/main/sakinah.apk">Download for Android</a>
+<p class="muted" hidden>Version <span class="version-value"></span></p>
+<p class="muted">Android 8 or newer.</p>
+<p class="muted">Or scan this code with your phone</p><img class="qr" src="qr.svg" alt="">
+</section>
+<section class="card"><h2>What Sakinah does</h2><ul><li>Prayer times for your position or a chosen city, even offline</li><li>Prayer reminders, with the standard sound or the adhan of your choice</li><li>Qibla direction</li><li>The Quran, with verse-by-verse recitation that follows the text</li><li>Tasbih and explained duas</li><li>In English, French and Arabic</li></ul></section>
+<section class="card"><h2>Install the app</h2><ol><li>Tap “Download for Android”, then open the downloaded file.</li><li>If Android asks, allow your browser to install apps.</li><li>Android may warn that the app does not come from the Play Store. This is normal for an app installed from a website. Only continue if you downloaded it from this page.</li><li>Tap “Install”. Updates will then arrive directly in the app.</li></ol></section>
+<section class="card"><h2>Your privacy</h2><p>Sakinah collects neither your personal data nor your position. No account, no ads, no trackers.</p><p><a href="privacy.html">Read the privacy policy</a></p></section>
+<section class="card"><h2>Support Sakinah</h2><p>Sakinah is free and will stay free. If it is useful to you, you can support its development.</p><p><a href="https://ko-fi.com/sakinah_dev" rel="noopener">Support on Ko-fi</a></p></section>
+<section class="card"><h2>Verify the app</h2><p>SHA-256 fingerprint of the signing certificate:</p><p><code>8c43b14cdf99b9a25c0002da8a1bf5c3827ef04270f0df84623791a5dd540495</code></p></section>
+<footer><p class="muted">Quran text: “quran-uthmani” edition from Al Quran Cloud (Islamic Network), whose sources include Tanzil Project. Recitation: Mishary Alafasy, through Islamic Network. Adhans: AlAdhan.com (Islamic Network). Rights in the recitations and adhans remain with their authors.</p></footer>
+</div>
+<div data-lang="ar" lang="ar" dir="rtl">
+<header><img src="logo.svg" alt=""><h1>Sakinah · سكينة</h1><p>مواقيت الصلاة، القبلة، القرآن، التسبيح والأدعية. مجاني وبلا إعلانات وبلا تتبع.</p></header>
+<section class="card download">
+<a class="button" href="https://github.com/obiodev/sakina-releases/raw/main/sakinah.apk">تنزيل لأندرويد</a>
+<p class="muted" hidden>الإصدار <span class="version-value"></span></p>
+<p class="muted">أندرويد 8 أو أحدث.</p>
+<p class="muted">أو امسح هذا الرمز بهاتفك</p><img class="qr" src="qr.svg" alt="">
+</section>
+<section class="card"><h2>ماذا يقدّم سكينة</h2><ul><li>مواقيت الصلاة حسب موقعك أو مدينة تختارها، حتى دون اتصال</li><li>تذكيرات الصلاة، بالصوت العادي أو بالأذان الذي تختاره</li><li>اتجاه القبلة</li><li>القرآن الكريم، مع تلاوة آية بآية ومتابعة النص</li><li>التسبيح وأدعية مشروحة</li><li>بالعربية والفرنسية والإنجليزية</li></ul></section>
+<section class="card"><h2>تثبيت التطبيق</h2><ol><li>اضغط «تنزيل لأندرويد»، ثم افتح الملف الذي تم تنزيله.</li><li>إذا طلب أندرويد ذلك، اسمح للمتصفح بتثبيت التطبيقات.</li><li>قد ينبّهك أندرويد إلى أن التطبيق ليس من متجر Play. هذا طبيعي لتطبيق يُثبَّت من موقع. لا تتابع إلا إذا نزّلته من هذه الصفحة.</li><li>اضغط «تثبيت». ستصل التحديثات بعد ذلك مباشرة داخل التطبيق.</li></ol></section>
+<section class="card"><h2>خصوصيتك</h2><p>لا يجمع سكينة بياناتك الشخصية ولا موقعك. لا حساب ولا إعلانات ولا أدوات تتبع.</p><p><a href="privacy.html">اقرأ سياسة الخصوصية</a></p></section>
+<section class="card"><h2>دعم سكينة</h2><p>سكينة مجاني وسيبقى كذلك. إذا كان مفيدًا لك، يمكنك دعم تطويره.</p><p><a href="https://ko-fi.com/sakinah_dev" rel="noopener">الدعم عبر Ko-fi</a></p></section>
+<section class="card"><h2>التحقق من التطبيق</h2><p>بصمة SHA-256 لشهادة التوقيع:</p><p><code>8c43b14cdf99b9a25c0002da8a1bf5c3827ef04270f0df84623791a5dd540495</code></p></section>
+<footer><p class="muted">نص القرآن: إصدار «quran-uthmani» من Al Quran Cloud ‏(Islamic Network)، ومن مصادره مشروع Tanzil. التلاوة: مشاري العفاسي عبر Islamic Network. الأذان: AlAdhan.com ‏(Islamic Network). تبقى حقوق التلاوات والأذان لأصحابها.</p></footer>
+</div>
+</main>
+<script>
+(function(){
+  var supported=['fr','en','ar'];
+  function apply(lang){
+    document.documentElement.lang=lang;
+    document.documentElement.dir=lang==='ar'?'rtl':'ltr';
+    var t=document.querySelector('meta[name="title-'+lang+'"]');
+    if(t)document.title=t.content;
+    document.querySelectorAll('nav.langs button').forEach(function(b){b.setAttribute('aria-pressed',b.dataset.set===lang?'true':'false');});
+    try{localStorage.setItem('sakinah-lang',lang);}catch(e){}
+  }
+  var saved=null;try{saved=localStorage.getItem('sakinah-lang');}catch(e){}
+  var nav=(navigator.language||'fr').slice(0,2);
+  apply(supported.indexOf(saved)>=0?saved:(supported.indexOf(nav)>=0?nav:'en'));
+  document.querySelectorAll('nav.langs button').forEach(function(b){b.addEventListener('click',function(){apply(b.dataset.set);});});
+  var v=document.querySelectorAll('.version-value');
+  if(v.length&&window.fetch){fetch('https://raw.githubusercontent.com/obiodev/sakina-releases/main/update.json',{cache:'no-store'}).then(function(r){return r.json();}).then(function(j){if(j&&/^[0-9.]+$/.test(j.versionName)){v.forEach(function(e){e.textContent=j.versionName;e.parentNode.hidden=false;});}}).catch(function(){});}
+})();
+</script>
+</body>
+</html>
