@@ -12,6 +12,11 @@ Website / Site : https://obiodev.github.io/sakina-releases/
 
 Latest version / Dernière version: https://raw.githubusercontent.com/obiodev/sakina-releases/main/sakinah.apk
 
+## Versions
+
+- `sakinah.apk` and `sakinah-1.6.0.apk`: version 1.6.0, package `com.motoko.sakinah`, the same app as on Google Play.
+- `update.json` and `sakinah-1.5.1.apk`: kept for installs of the former package `com.sakinah.app`, so that they are not offered a second app.
+
 ## Credits
 
 - **Quran text:** "quran-uthmani" edition from Al Quran Cloud (https://alquran.cloud, Islamic Network), whose sources include Tanzil Project (https://tanzil.net). Reproduced without modification. Copyright (C) Tanzil Project.
